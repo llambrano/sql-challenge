@@ -210,7 +210,7 @@ Once you have a complete database, do the following:
 ```
 </details>
 
-[Folder with All Queries](queries)
+[Folder with all queries](queries)
 
 
 
