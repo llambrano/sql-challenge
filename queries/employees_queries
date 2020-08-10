@@ -1,0 +1,9 @@
+CREATE TABLE public.dept_emp
+(
+    emp_no integer(10) NOT NULL,
+    dept_no character varying(10) NOT NULL,
+    PRIMARY KEY (emp_no)
+);
+
+ALTER TABLE public.dept_emp
+    OWNER to postgres;

@@ -1,0 +1,5 @@
+ALTER TABLE public.departments
+    ADD FOREIGN KEY (dept_no)
+    REFERENCES public.dept_emp (dept_no) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE NO ACTION;
